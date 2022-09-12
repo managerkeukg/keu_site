@@ -1,0 +1,172 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<DIV style="width:800px; margin:0px auto; padding-top:100px;">	 
+    <H1>Инфляция </H1>
+	<TABLE cellpadding="6" cellspacing="0">
+	<TR style="height:35px; color:white; background-color:#023183;">
+		<TD>Наименование товара</TD>
+		<TD>2015 за 9 мес</TD>
+		<TD>2016 за 9 мес </TD>
+	    <TD>Изменение индексов</TD>
+		<TD>Инфляция в %</TD>
+	</TR>
+	<TR>
+		<TD>Хлебобулочные изделия и крупы</TD>
+		<TD><DIV id="1_prev">7644,71</DIV></TD>
+		<TD> <INPUT type="text" id="1_last" name="" value="10579,53" onchange="calculate_enflation('1_change', '1_enflation', $('#1_prev').text(), $('#1_last').val() );"></INPUT></TD>
+	    <TD><DIV id="1_change"></DIV></TD>
+		<TD><DIV id="1_enflation"></DIV></TD>
+	</TR>
+	<TR style="background-color:silver;">
+		<TD>Мясо</TD>
+		<TD><DIV id="2_prev">44180,81</DIV></TD>
+		<TD><INPUT type="text" id="2_last" name="" value="43164,27" onchange="calculate_enflation('2_change', '2_enflation', $('#2_prev').text(), $('#2_last').val() );"></INPUT></TD>
+	    <TD><DIV id="2_change"></DIV></TD>
+		<TD><DIV id="2_enflation"></DIV></TD>
+	</TR>
+	<TR>
+		<TD>Молочные изделия </TD>
+		<TD><DIV id="3_prev">29956,72</DIV></TD>
+		<TD><INPUT type="text" id="3_last" name="" value="29587,94" onchange="calculate_enflation('3_change', '3_enflation', $('#3_prev').text(), $('#3_last').val() );"></INPUT></TD>
+	    <TD><DIV id="3_change"></DIV></TD>
+        <TD><DIV id="3_enflation"></DIV></TD>
+	</TR>
+	<TR style="background-color:silver;">
+		<TD>Другие животные и растительные жиры</TD>
+		<TD><DIV id="4_prev">2642,4</DIV></TD>
+		<TD><INPUT type="text" id="4_last" name="" value="3395,58" onchange="calculate_enflation('4_change', '4_enflation', $('#4_prev').text(), $('#4_last').val() );"></INPUT></TD>
+	    <TD><DIV id="4_change"></DIV></TD>
+		<TD><DIV id="4_enflation"></DIV></TD>
+	</TR>
+	<TR>
+		<TD>Фрукты </TD>
+		<TD><DIV id="5_prev">11589,68</DIV></TD>
+		<TD><INPUT type="text" id="5_last" name="" value="11924,06" onchange="calculate_enflation('5_change', '5_enflation', $('#5_prev').text(), $('#5_last').val() );"></INPUT></TD>
+	    <TD><DIV id="5_change"></DIV></TD>
+		<TD><DIV id="5_enflation"></DIV></TD>
+	</TR>
+	<TR style="background-color:silver;">
+		<TD>Овощи </TD>
+		<TD><DIV id="6_prev">13766,15</DIV></TD>
+		<TD><INPUT type="text" id="6_last" name="" value="13655,39" onchange="calculate_enflation('6_change', '6_enflation', $('#6_prev').text(), $('#6_last').val() );"></INPUT></TD>
+	    <TD><DIV id="6_change"></DIV></TD>
+		<TD><DIV id="6_enflation"></DIV></TD>
+		</TR>
+	<TR>
+		<TD>Безалкогольные напитки </TD>
+		<TD><DIV id="7_prev">3824,54</DIV></TD>
+		<TD><INPUT type="text" id="7_last" name="" value="4000,25" onchange="calculate_enflation('7_change', '7_enflation', $('#7_prev').text(), $('#7_last').val() );"></INPUT></TD>
+	    <TD><DIV id="7_change"></DIV></TD>
+		<TD><DIV id="7_enflation"></DIV></TD>
+	</TR>
+	<TR style="background-color:silver;">
+		<TD>Алкогольные напитки, табачные изделия </TD>
+		<TD><DIV id="8_prev">11410,53</DIV></TD>
+		<TD><INPUT type="text" id="8_last" name="" value="12260,79" onchange="calculate_enflation('8_change', '8_enflation', $('#8_prev').text(), $('#8_last').val() );"></INPUT></TD>
+	    <TD><DIV id="8_change"></DIV></TD>
+		<TD><DIV id="8_enflation"></DIV></TD>
+	</TR>
+	<TR>
+		<TD>Одежда и обувь </TD>
+		<TD><DIV id="9_prev">689480,21</DIV></TD>
+		<TD><INPUT type="text" id="9_last" name="" value="742637,7" onchange="calculate_enflation('9_change', '9_enflation', $('#9_prev').text(), $('#9_last').val() );"></INPUT></TD>
+	    <TD><DIV id="9_change"></DIV></TD>
+		<TD><DIV id="9_enflation"></DIV></TD>
+	</TR>
+	<TR style="background-color:silver;">
+		<TD>Жилищные услуги</TD>
+		<TD><DIV id="10_prev">72310,89</DIV></TD>
+		<TD><INPUT type="text" id="10_last" name="" value="75782,55" onchange="calculate_enflation('10_change', '10_enflation', $('#10_prev').text(), $('#10_last').val() );"></INPUT></TD>
+		<TD><DIV id="10_change"></DIV></TD>
+		<TD><DIV id="10_enflation"></DIV></TD>
+	</TR>
+	<TR>
+		<TD>Предметы дрмашнего обихода </TD>
+		<TD><DIV id="11_prev">1877636,31</DIV></TD>
+		<TD><INPUT type="text" id="11_last" name="" value="2025703,74" onchange="calculate_enflation('11_change', '11_enflation', $('#11_prev').text(), $('#11_last').val() );"></INPUT></TD>
+		<TD><DIV id="11_change"></DIV></TD>
+		<TD><DIV id="11_enflation"></DIV></TD>
+	</TR>
+	<TR style="background-color:silver;">
+		<TD>Здравоохранение </TD>
+		<TD><DIV id="12_prev">5490,32</DIV></TD>
+		<TD><INPUT type="text" id="12_last" name="" value="6390,22" onchange="calculate_enflation('12_change', '12_enflation', $('#12_prev').text(), $('#12_last').val() );"></INPUT></TD>
+	    <TD><DIV id="12_change"></DIV></TD>
+		<TD><DIV id="12_enflation"></DIV></TD>
+	</TR>
+	<TR>
+		<TD>Транспорт</TD>
+		<TD><DIV id="13_prev">15036974,62</DIV></TD>
+		<TD><INPUT type="text" id="13_last" name="" value="13345551,69" onchange="calculate_enflation('13_change', '13_enflation', $('#13_prev').text(), $('#13_last').val() );"></INPUT></TD>
+	    <TD><DIV id="13_change"></DIV></TD>
+		<TD><DIV id="13_enflation"></DIV></TD>
+	</TR>
+	<TR style="background-color:silver;">
+		<TD>Связь</TD>
+		<TD><DIV id="14_prev">8609,65</DIV></TD>
+		<TD><INPUT type="text" id="14_last" name="" value="8506,74" onchange="calculate_enflation('14_change', '14_enflation', $('#14_prev').text(), $('#14_last').val() );"></INPUT></TD>
+	    <TD><DIV id="14_change"></DIV></TD>
+		<TD><DIV id="14_enflation"></DIV></TD>
+	</TR>
+	<TR>
+		<TD>Книги</TD>
+		<TD><DIV id="15_prev">3984,9</DIV></TD>
+		<TD><INPUT type="text" id="15_last" name="" value="3672,89" onchange="calculate_enflation('15_change', '15_enflation', $('#15_prev').text(), $('#15_last').val() );"></INPUT></TD>
+	    <TD><DIV id="15_change"></DIV></TD>
+		<TD><DIV id="15_enflation"></DIV></TD>
+	</TR>
+	<TR style="background-color:silver;">
+		<TD>Рестораны и гостиницы </TD>
+		<TD><DIV id="16_prev">79992,25</DIV></TD>
+		<TD><INPUT type="text" id="16_last" name="" value="71823,29" onchange="calculate_enflation('16_change', '16_enflation', $('#16_prev').text(), $('#16_last').val() );"></INPUT></TD>
+	   <TD><DIV id="16_change"></DIV></TD>
+		<TD><DIV id="16_enflation"></DIV></TD>
+	</TR>
+	</TABLE>
+</DIV>
+<script src="jquery-1.10.2.js"></script>
+<script>
+function calculate_enflation($change, $enflation, $prev, $last ) {
+    last= $last;
+	last=last.replace(",",".");
+	///alert(last);
+	prev=$prev;
+	prev=prev.replace(",",".");
+	///alert(prev);
+	
+    change = last - prev;
+    enflation = (change / prev)*100;
+	///alert(change);
+	
+    $( "#"+$change+"" ).text(change.toFixed(2));
+	$( "#"+$enflation+"" ).text(enflation.toFixed(2));
+}
+
+for (i = 0; i < 17; i++) { 
+    //text += cars[i] + "<br>";
+	//calculate_enflation('', $enflation, $prev, $last )
+	//calculate_enflation(i+'_change', i+'_enflation', $('#1_prev').text(), $('#1_last').val() );
+}
+var last=0;
+var prev=0;
+var change=0;
+var enflation=0;
+calculate_enflation('1_change', '1_enflation', $('#1_prev').text(), $('#1_last').val() );
+calculate_enflation('2_change', '2_enflation', $('#2_prev').text(), $('#2_last').val() );
+calculate_enflation('3_change', '3_enflation', $('#3_prev').text(), $('#3_last').val() );
+calculate_enflation('4_change', '4_enflation', $('#4_prev').text(), $('#4_last').val() );
+calculate_enflation('5_change', '5_enflation', $('#5_prev').text(), $('#5_last').val() );
+calculate_enflation('6_change', '6_enflation', $('#6_prev').text(), $('#6_last').val() );
+calculate_enflation('7_change', '7_enflation', $('#7_prev').text(), $('#7_last').val() );
+calculate_enflation('8_change', '8_enflation', $('#8_prev').text(), $('#8_last').val() );
+calculate_enflation('9_change', '9_enflation', $('#9_prev').text(), $('#9_last').val() );
+calculate_enflation('10_change', '10_enflation', $('#10_prev').text(), $('#10_last').val() );
+calculate_enflation('11_change', '11_enflation', $('#11_prev').text(), $('#11_last').val() );
+calculate_enflation('12_change', '12_enflation', $('#12_prev').text(), $('#12_last').val() );
+calculate_enflation('13_change', '13_enflation', $('#13_prev').text(), $('#13_last').val() );
+calculate_enflation('14_change', '14_enflation', $('#14_prev').text(), $('#14_last').val() );
+calculate_enflation('15_change', '15_enflation', $('#15_prev').text(), $('#15_last').val() );
+calculate_enflation('16_change', '16_enflation', $('#16_prev').text(), $('#16_last').val() );
+
+</script>
+<!-- str = $id;
+    str.replace("_change","");  alert(str);-->

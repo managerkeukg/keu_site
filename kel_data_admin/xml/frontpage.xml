@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<document>
+     <frontpage_abiturients_name_ru>Абитуриенту</frontpage_abiturients_name_ru>
+     <frontpage_abiturients_name_kg>Абитуриенттерге </frontpage_abiturients_name_kg>
+     <frontpage_abiturients_name_eng>Abiturients</frontpage_abiturients_name_eng>
+     <frontpage_students_name_ru>Студентам</frontpage_students_name_ru>
+     <frontpage_students_name_kg>Студенттерге</frontpage_students_name_kg>
+     <frontpage_students_name_eng>Students</frontpage_students_name_eng>
+     <frontpage_science_name_ru>Наука</frontpage_science_name_ru>
+     <frontpage_science_name_kg>Илим</frontpage_science_name_kg>
+     <frontpage_science_name_eng>Science</frontpage_science_name_eng>
+     <frontpage_international_name_ru>Международная деятельность</frontpage_international_name_ru>
+     <frontpage_international_name_kg>Эларалык байланыштар</frontpage_international_name_kg>
+     <frontpage_international_name_eng>International</frontpage_international_name_eng>
+     <frontpage_career_name_ru>Карьера</frontpage_career_name_ru>
+     <frontpage_career_name_kg>Карьера</frontpage_career_name_kg>
+     <frontpage_career_name_eng>Career</frontpage_career_name_eng>
+     <frontpage_library_name_ru>Электронная библиотека</frontpage_library_name_ru>
+     <frontpage_library_name_kg>Санарип китепкана</frontpage_library_name_kg>
+     <frontpage_library_name_eng>E-library</frontpage_library_name_eng>
+     <frontpage_corruption_name_ru>Академическая честность</frontpage_corruption_name_ru>
+     <frontpage_corruption_name_kg>Коррупция Токто!!!</frontpage_corruption_name_kg>
+     <frontpage_corruption_name_eng>Corruption STOP!!!</frontpage_corruption_name_eng>
+</document>

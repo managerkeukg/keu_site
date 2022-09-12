@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<document>
+     <menu_mainpage_ru>Главная</menu_mainpage_ru>
+     <menu_mainpage_kg>Негизги бет</menu_mainpage_kg>
+     <menu_mainpage_eng>Mainpage</menu_mainpage_eng>
+     <menu_mainpage_link></menu_mainpage_link>
+     <menu_departments_ru>Кафедры</menu_departments_ru>
+     <menu_departments_kg>Кафедралар</menu_departments_kg>
+     <menu_departments_eng>Departments</menu_departments_eng>
+     <menu_departments_link></menu_departments_link>
+     <menu_university_ru>Университет</menu_university_ru>
+     <menu_university_kg>Университет</menu_university_kg>
+     <menu_university_eng>University</menu_university_eng>
+     <menu_university_link></menu_university_link>
+     <menu_structure_ru>Структура</menu_structure_ru>
+     <menu_structure_kg>Түзүм</menu_structure_kg>
+     <menu_structure_eng>Structure</menu_structure_eng>
+     <menu_structure_link></menu_structure_link>
+     <menu_personal_ru>Сотрудникам</menu_personal_ru>
+     <menu_personal_kg>Кызматкерлерге</menu_personal_kg>
+     <menu_personal_eng>Personnel</menu_personal_eng>
+     <menu_personal_link></menu_personal_link>
+     <menu_contacts_ru>Контакты</menu_contacts_ru>
+     <menu_contacts_kg>Байланыш</menu_contacts_kg>
+     <menu_contacts_eng>Contacts</menu_contacts_eng>
+     <menu_contacts_link></menu_contacts_link>
+     <menu_portal_ru>Образовательный  портал</menu_portal_ru>
+     <menu_portal_kg>Билим алуу порталы</menu_portal_kg>
+     <menu_portal_eng>Education portal</menu_portal_eng>
+     <menu_portal_link>http://178.217.173.109/portal/</menu_portal_link>
+     <menu_distant_ru>Дистанционное обучение</menu_distant_ru>
+     <menu_distant_kg>Узактан билим алуу</menu_distant_kg>
+     <menu_distant_eng>Distant Education</menu_distant_eng>
+     <menu_distant_link>http://inoo.keu.kg</menu_distant_link>
+     <menu_avn_ru>Информационная система eBilim</menu_avn_ru>
+     <menu_avn_kg>eBilim маалымат системасы</menu_avn_kg>
+     <menu_avn_eng>Information system  eBilim </menu_avn_eng>
+     <menu_avn_link>http://ebilim.keu.kg</menu_avn_link>
+     <menu_avn_onlinetest_ru></menu_avn_onlinetest_ru>
+     <menu_avn_onlinetest_kg></menu_avn_onlinetest_kg>
+     <menu_avn_onlinetest_eng></menu_avn_onlinetest_eng>
+     <menu_avn_onlinetest_link></menu_avn_onlinetest_link>
+     <menu_avn_vedomost_ru></menu_avn_vedomost_ru>
+     <menu_avn_vedomost_kg></menu_avn_vedomost_kg>
+     <menu_avn_vedomost_eng></menu_avn_vedomost_eng>
+     <menu_avn_vedomost_link></menu_avn_vedomost_link>
+     <menu_library_ru>Электронная библиотека</menu_library_ru>
+     <menu_library_kg>Электрондук китепкана</menu_library_kg>
+     <menu_library_eng>E-library</menu_library_eng>
+     <menu_library_link></menu_library_link>
+     <menu_email_ru>ПОЧТА keu.kg</menu_email_ru>
+     <menu_email_kg>keu.kg почтасы</menu_email_kg>
+     <menu_email_eng>E-mail keu.kg</menu_email_eng>
+     <menu_email_link>http://mx.hoster.kg/</menu_email_link>
+     <menu_edoc_ru>Документация</menu_edoc_ru>
+     <menu_edoc_kg>Документация</menu_edoc_kg>
+     <menu_edoc_eng>E documents</menu_edoc_eng>
+     <menu_edoc_link>http://178.217.173.109/</menu_edoc_link>
+</document>
